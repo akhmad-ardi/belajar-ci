@@ -1,0 +1,52 @@
+body {
+	background-color: #eee;
+	color: #333;
+}
+
+#wrapper {
+	background-color: #fff;
+	width: 1100px;
+	margin: 20px auto;
+}
+
+#wrapper header {
+	background: #232323;
+	padding: 20px;
+}
+
+#wrapper header hgroup {
+	float: left;
+	color: #fff;
+}
+
+#wrapper header nav {
+	float: right;
+}
+
+#wrapper header nav ul li {
+	list-style: none;
+	float: left;
+}
+
+#wrapper header nav ul li a {
+	padding: 15px;
+	color: #fff;
+}
+
+.clear {
+	clear: both;
+}
+
+section {
+	padding: 20px !important;
+}
+
+footer {
+	background: #232323;
+	padding: 20px;
+}
+
+footer a {
+	color: #fff;
+	text-decoration: none;
+}
