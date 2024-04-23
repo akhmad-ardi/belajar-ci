@@ -11,7 +11,7 @@
 <body>
   <h1 style="text-align: center;">Download File</h1>
 
-  <a href="<?php echo base_url() . 'index.php/download/download' ?>">Download</a>
+  <a href="<?php echo base_url() . 'download/download' ?>">Download</a>
 </body>
 
 </html>

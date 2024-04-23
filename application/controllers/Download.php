@@ -6,7 +6,8 @@ class Download extends CI_Controller
   public function __construct()
   {
     parent::__construct();
-    $this->load->helper(array('form', 'url'));
+    $this->load->helper(array('url', 'download'));
+    $this->load->helper('url');
   }
 
   public function index()
@@ -16,6 +17,6 @@ class Download extends CI_Controller
 
   public function download()
   {
-    force_download('images/2_(1).jpeg', NULL);
+    force_download('images/2_(1).jpg', NULL);
   }
 }
